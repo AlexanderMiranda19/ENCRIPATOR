@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EncripatadorAlura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+
+        <img class="comercio"  src="imagenes/comercio.jpg" alt="Comercio Exterior">
+        <h1>La presente aplicación tiene como objetivo resolver un problema que se 
+            presenta en el comercio exterior, donde los exportadores e importadores
+            desean que los datos de su proveedor queden codificados por reserva de 
+            sus datos. Por tal motivo la aplicación de encriptador de texto realizara 
+            el proceso, donde el usuario digitara el nombre de su proveedor y la app
+            le devolverá el nombre que registrará en los sistemas de aduana o procesos 
+            internos.
+        </h1>
+        <br></br>
+        <p style="color: rgb(100, 38, 44)">Solo utilizar letras minúsculas y sin acentos</p>
+        <br></br>
+        <p>Pueden iniciar dando click al boton.</p>
+        <button class="boton" onclick="desaparecer()">Iniciar</button>
+    </div>
+
+
+<div class="texto">
+       
+    <h2 class="tittle">Encriptador de Texto</h2>
+    <input type="text" id="caja-texto" oninput="validarMinusculas(this)">
+
+      
+</div>
+ <footer>
+ <h3>© Jhonathan Miranda Rodriguez // www.linkedin.com/in/jhonathan-miranda-sistem</h3> 
+ </footer>      
+</body>
+<script src="app.js"></script>
+</html>

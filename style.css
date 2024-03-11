@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    background-image: url(imagenes/maritimo.jpg) ;
+    padding: 0px;
+}
+/* Estilos para el contenedor */
+.contenedor {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    padding: 10px;
+    border: 5px solid #151414;
+    background-color: #b9d0ea;
+    border-radius: 35px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .comercio{
+    width: 220px;
+    float:left;
+    margin: 0 20px 20px 0;
+}
+  
+  /* Estilos para el botón */
+  .boton {
+    float: right;
+    margin-left: 20px;
+    padding: 10px 70px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid hsla(0, 0%, 80%, 0.351);
+    background-color: #5050ac;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el botón al pasar el cursor por encima */
+  .boton:hover {
+    background-color: #ddd;
+  }
+ /* Estilo de titulo */
+  h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: auto;
+    font-family: 'Lucida Sans';
+  }
+
+  /* caja de texto en miniscula */
+
+  #caja-texto {
+    text-transform: lowercase;
+  }
+
+  footer{
+    text-align: center;
+    padding:40px;
+}
