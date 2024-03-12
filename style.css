@@ -57,7 +57,8 @@ body {
   #caja-texto {
     text-transform: lowercase;
   }
-
+  /*pie de pagina*/
+  
   footer{
     text-align: center;
     padding:40px;
