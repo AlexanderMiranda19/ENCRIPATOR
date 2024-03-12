@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EncripatadorAlura</title>
+    <title>Encripatador de texto</title>
     <link rel="icon" type="image/x-icon" href="./imagenes/favicon.ico">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
@@ -28,11 +28,16 @@
     </div>
     <h2 class="tittle">Encriptador de Texto</h2>
 
-<div class="texto">
+<div class="trabajo">
     <main> 
-        <section class="encriptador">
-        <input type="text" id="encriptar" oninput="validarMinusculas(this)" placeholder="Introduzca el texto a encriptar">
-        
+      
+            <div class="encriptador">
+            <input type="text"class="texto" id="texto" oninput="validarMinusculas(this)" placeholder="Introduzca el texto a encriptar">
+            </div>
+            <div class="botones">
+              <button class="encriptar" type="encriptar" onclick="encriptar()">Encriptar </button>
+              <button class="desencriptar" type="desencriptar" onclick="desencriptar()">Desencriptar </button>  
+            </div>
     </main>
 
       
