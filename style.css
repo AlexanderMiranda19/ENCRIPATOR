@@ -57,9 +57,49 @@ body {
   #caja-texto {
     text-transform: lowercase;
   }
-  /*pie de pagina*/
+
+  /*Encripador texto */
+  .trabajo {
+    position: relative;
+    width: 95vw;
+    height: 95vw;
+    left: 2vw;
+    right: 3vw;
+    background: #ddd;
+  }
+
+  .texto{
+   position: absolute;
+   width: 42%;
+   height: 35%;
+   left: 12%;
+   top: 5%;
+   border: none;
+   font-family:'Courier New', Courier, monospace;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 150%;
+   background-color: #ddd;
+  }
+
+  .texto::placeholder {
+    color: #0a3871;
+    font-weight: bold;
+  }
   
+  .texto:focus,
+  .texto:active {
+    border: none;
+    outline: none;
+  }
+
+
+
+  /*pie de pagina*/
+
   footer{
     text-align: center;
     padding:40px;
+    color:whitesmoke;
 }
